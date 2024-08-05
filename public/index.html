@@ -33,12 +33,16 @@
         display: grid;
         place-items: center;
       }
+
+      #youtube {
+        width: clamp(160px, 100%, 1280px);
+        height: clamp(90px, 100%, 720px);
+      }
     </style>
 
     <main id="app">
       <iframe
-        width="1280"
-        height="720"
+        id="youtube"
         src="https://www.youtube.com/embed/bm0nLJuRNbw?si=3zqGh0u8FoSvXfFf"
         title="YouTube video player"
         frameborder="0"
