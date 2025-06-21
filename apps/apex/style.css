@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #f1f1f1;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+#app {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+#youtube {
+  width: clamp(160px, 100%, 1280px);
+  /* height: clamp(90px, 100%, 720px); */
+  aspect-ratio: 16 / 9;
+}
